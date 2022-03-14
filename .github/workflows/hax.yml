@@ -14,6 +14,6 @@ jobs:
           cmd /c curl -sSL -O https://github.com/CoiaPrant/Hax_extend/raw/main/HaxAutoReNew.exe
           cmd /c HaxAutoReNew.exe -user %USERNAME% -password %PASSWORD%
         env:
-          USERNAME: ${{ secrets.1886409565 }}
-          PASSWORD: ${{ secrets.Wang584521 }}
+          USERNAME: ${{ 1886409565 }}
+          PASSWORD: ${{ Wang584521 }}
           
